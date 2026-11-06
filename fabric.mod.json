@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "dynflight",
+	"version": "${version}",
+	"name": "Dynamic Flight",
+	"description": "Client-side 3D flight in the direction you look.",
+	"authors": [
+		"Me"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.dynflight.DynFlightClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
